@@ -1,0 +1,26 @@
+--- #YAML:1.0
+name:               WWW-Liquidweb-Lite
+version:            0.01
+abstract:           A module to interface with the Liquidweb API
+author:
+    - Shane Utt (shaneutt@linux.com)
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Devel::StackTrace:  1.31
+    JSON:               2.53
+    LWP::UserAgent:     6.05
+    Test::Simple:       0.44
+    Want:               0.23
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.57_05
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
